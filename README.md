@@ -2,19 +2,5 @@
 
 * ML - Machine Learning
 
-### Installing mindmap software
-
-The mindmaps here require [FreePlane](http://www.freeplane.org).
-
-This is how you can install it:
-
-    $ mkdir -p ~/Downloads
-    $ cd ~/Downloads
-    $ wget https://sourceforge.net/projects/freeplane/files/freeplane%20stable/freeplane_bin-1.5.13.zip
-
-    $ mkdir -p ~/tools ~/bin
-    $ cd ~/tools
-    $ unzip ~/Downloads/freeplane_bin-1.5.13.zip
-    $ ln -s ~/tools/freeplane-1.5.13/freeplane.sh ~/bin/freeplane
-    $ hash -r
-
+[FreePlane](http://www.freeplane.org) installation script:<p/>
+http://github.com/frgomes/mindmap/scripts/install_freeplane.sh
